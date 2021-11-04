@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import "compass/css3";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  font-family: Acme, Arial, sans-serif;
+}
+
+body {
+   background: url("/static/rss_app/images/wall.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+}
+
+.table_thead{
+  background: #212529 !important;
+  color: white !important;
+}
+
+.showjob{
+  background-color: white;
+}
+
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+}

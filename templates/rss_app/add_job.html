@@ -1,0 +1,28 @@
+{% extends 'rss_app/base.html' %}
+{% block body_block %}
+
+<div class="jumbotron">
+
+  <div class="container">
+
+    <h1>Select Options</h1>
+    <div class="form-group">
+
+      <form class="form-group" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" class="btn btn-primary" value="Submit" onclick="move()"/>
+      </form>
+
+    </div>
+
+    <div id="myProgress">
+    <div id="myBar">0%</div>
+    </div>
+
+
+  </div>
+
+</div>
+
+{% endblock %}
